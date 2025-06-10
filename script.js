@@ -6,7 +6,7 @@ form.addEventListener('submit', function (parametr) {
     const result = document.getElementById('div');
     result.innerHTML = `
         <h3>Kiritilgan ma'lumotlar:</h3>
-        <p>Email: ${email}</p>
-        <p>Parol: ${password}</p>
+        <p> Email: ${email} </p>
+        <p> Parol: ${password} </p>
     `;
 });
